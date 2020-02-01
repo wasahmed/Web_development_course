@@ -1,0 +1,57 @@
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+a{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+
+.links{
+    text-align: right;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgba(255,0,0, 0.2);
+    border-radius: 5px;
+    box-shadow: 5px 5px palevioletred;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: navy;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: 10px 5px;
+    transition: all 1s;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.imgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+    color: seagreen;
+}

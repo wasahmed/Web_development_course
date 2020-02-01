@@ -1,0 +1,59 @@
+body{
+   
+    background-image: url(background.jpg);
+
+}
+
+a{
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+
+.links{
+    text-align: right;
+}
+body li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+body header{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid rgba(255,0,0, 0.2);
+    border-radius: 5px;
+    box-shadow: 5px 5px palevioletred;
+}
+
+.reg {
+    text-align: initial;
+    font-weight: bolder;
+    margin: 200px 110px 110px 200px;
+    width: 50%;
+  height: 50%;
+  border: 3px solid green;
+  padding: 1px; 
+}
+
+form input{
+    margin-left: 200px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+    opacity: 0.4;
+    width: 375px;
+    margin: 3px; 
+}
+
+input[type="checkbox"]{
+    opacity: 1;
+    margin-left: 30px;
+}
+
+input[type="radio"]{
+    opacity: 1;
+    margin-left: 30px;
+}

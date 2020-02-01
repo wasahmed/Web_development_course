@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">About</a></li>
+    </div>
+    <header class="header">Register</header>
+    <div class="reg">        
+        <form action="GET">
+            First Name: <input type="text" name="firstname"><br>
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email" required name="email"><br>
+            Password: <input type="password" min="5" name="password"><br>
+            Date of birth: <input type="date"><br>
+            Gender: <br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            Pets: <br>
+            <input type="checkbox" name="cat">Cat<br>
+            <input type="checkbox" name="dog">Dog<br>
+            Cars: <br>
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            <input type="submit" value="register">
+            <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- http://127.0.0.1:5500/register.html?
+firstname=fake
+&lastname=man
+&email=was%40abc.co.za&
+password=123&
+gender=male&
+cat=on&
+cars=audi -->
